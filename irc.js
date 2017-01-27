@@ -21,7 +21,8 @@ client.addListener('message', function (from, to, message) {
       client.say(channel, [data])
 
       // Put the stuff in our slack channel, too.
-      if (parse(message)[1] === 'announce') {
+      var mirrorToSlack = ['announce']
+      if (mirrorToSlack.includes(parse(message)[1])) {
         slack.send({
           text: data,
           channel: '#topic-sprint',
@@ -40,6 +41,12 @@ cron.schedule('*/5 * * * *', function() {
 
     if (data) {
       client.say(channel, [data])
+
+      slack.send({
+          text: data,
+          channel: '#topic-sprint',
+          username: 'sprintbot'
+      })
     }
   })
 })
