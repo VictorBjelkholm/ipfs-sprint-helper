@@ -1,5 +1,5 @@
 {
-  "name": "ipfs-sprint-helper",
+  "name": "sprint-helper",
   "version": "2.0.2",
   "description": "An IRC bot to help with IPFS sprint notifications",
   "main": "index.js",
