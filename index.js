@@ -43,7 +43,7 @@ module.exports = function (message, botName, cb) {
 
     if (message.type === 'help') {
       usageMsg = `Correct usage: ${botName}: announce <args> | next | now | tomorrow | help`
-      return cb(null, [usageMsg, `Feedback: https://github.com/RichardLitt/ipfs-sprint-helper`].join('\n'))
+      return cb(null, [usageMsg, `Feedback: https://github.com/ipfs/sprint-helper`].join('\n'))
     }
 
     gcal.getEvents({

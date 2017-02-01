@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/richardlitt/ipfs-sprint-helper.git"
+    "url": "git+https://github.com/ipfs/sprint-helper.git"
   },
   "keywords": [
     "irc",
@@ -20,13 +20,13 @@
   "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/richardlitt/ipfs-sprint-helper/issues"
+    "url": "https://github.com/ipfs/sprint-helper/issues"
   },
   "engines": {
     "node": "5.0.0",
     "npm": "3.10.6"
   },
-  "homepage": "https://github.com/richardlitt/ipfs-sprint-helper#readme",
+  "homepage": "https://github.com/ipfs/sprint-helper#readme",
   "dependencies": {
     "irc": "^0.5.1",
     "is-number": "^3.0.0",
