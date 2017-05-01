@@ -2,6 +2,8 @@
 
 > An IRC bot to help IPFS announce its sprints
 
+Note: This bot is not being actively maintained. 
+
 ## Install
 
 ```sh
