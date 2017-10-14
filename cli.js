@@ -13,11 +13,11 @@ const cli = meow([`
 
   Examples
     $ sprint-helper -b 'sprint-helper' 'this is a message'
-`, {
+`], {
   alias: {
     b: 'botname'
   }
-}])
+})
 
 const botName = cli.flags.b || process.env.SPRINT_HELPER_NAME || 'sprint-tester'
 
